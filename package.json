@@ -1,47 +1,17 @@
 {
-  "name": "node-static",
-  "description": "simple, compliant file streaming module for node",
-  "url": "http://github.com/cloudhead/node-static",
-  "keywords": [
-    "http",
-    "static",
-    "file",
-    "server"
-  ],
-  "author": "Alexis Sellier <alexis@cloudhead.io>",
-  "contributors": [
-    "Pablo Cantero <pablo@pablocantero.com>",
-    "Ionică Bizău <bizauionica@gmail.com>"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/cloudhead/node-static"
-  },
-  "main": "./lib/node-static",
+  "name": "apk-static-file-server",
+  "version": "1.0.0",
+  "description": "Simple json database to deploy to the host of your choice",
+  "main": "server.js",
   "scripts": {
-    "test": "vows --spec --isolate"
+    "start": "node server.js"
   },
-  "bin": {
-    "static": "bin/cli.js"
-  },
-  "license": "MIT",
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "Scott",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "request": "latest",
-    "vows": "latest"
-  },
-  "version": "0.7.11",
-  "engines": {
-    "node": ">= 0.4.1"
-  },
-  "bugs": {
-    "url": "https://github.com/cloudhead/node-static/issues"
-  },
-  "homepage": "https://github.com/cloudhead/node-static",
-  "directories": {
-    "example": "examples",
-    "test": "test"
   }
 }
